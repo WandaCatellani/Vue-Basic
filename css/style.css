@@ -3,3 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+section {
+  background: #e7e7e742;
+  border-radius: 8px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(240, 76, 76);
+}
+
+h2 {
+  color: lightcoral;
+}
