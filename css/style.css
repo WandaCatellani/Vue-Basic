@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-section {
+div {
   background: #e7e7e742;
   border-radius: 8px;
   height: 50vh;
