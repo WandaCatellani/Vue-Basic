@@ -12,32 +12,26 @@
   <link rel="stylesheet" href="./css/style.css">
   <!-- JS VUE-->
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
-  <script src="./components/componente1.js"></script>
+  <script src="./components/componente.js"></script>
+  <script src="./components/componente2.js"></script>
+  <script src="./components/componente3.js"></script>
   <!-- JS -->
-  <!-- <script defer src="./js/app.js"></script> -->
+  <script defer src="./js/app.js"></script>
   <title>Desafío 02</title>
 </head>
 
 <body>
-  <div id="app" class="container">
+  <section id="app" class="container">
+
     <h1>Desafío 02</h1>
 
     <h2>Wanda Catellani - Vue - Coderhouse</h2>
 
-    <componente1 :array="myArray" :style="myEstilo" :boolean="myBoolean"></componente1>
-  </div>
-
-
-  <script>
-    const app = new Vue({
-      el: '#app',
-      data: {
-        myArray: [1, 2, 3, 4, 5, 6, 7],
-        myEstilo: 'color: blue;',
-        myBoolean: false,
-      },
-    })
-  </script>
+    <componente :lista="myArray" :estilo="myEstilo" :booleano="myBoolean"></componente>
+    <componente2 :lista="myArray2" :estilo="myEstilo2" :booleano="myBoolean"></componente2>
+    <componente3 :lista="myArray3" :estilo="myEstilo3" :booleano="myBoolean"></componente3>
+    </div>
+  </section>
 
 </body>
 

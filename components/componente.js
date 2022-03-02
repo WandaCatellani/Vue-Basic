@@ -1,9 +1,9 @@
-Vue.component('componente3', {
+Vue.component('componente', {
   template:
     /* html */
     `
    <div>
-    <h3>Componente 3</h3>
+    <h3>Componente 1</h3>
 
     <table :style="estilo">
       <tbody>
@@ -12,7 +12,7 @@ Vue.component('componente3', {
             </tr>
       </tbody>
     </table>
-   </div>
+  </div>
   `,
   props: {
     lista: Array,
